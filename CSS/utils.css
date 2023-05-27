@@ -40,3 +40,18 @@
     align-items: center;
     gap: 1.5rem;
 }
+
+/* section-header */
+.section-header {
+    margin: 5rem 0rem;
+}
+
+.section-header h2 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.section-header p {
+    font-size: 2rem;
+    padding: 0 1rem;
+}

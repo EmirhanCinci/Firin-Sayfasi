@@ -101,3 +101,37 @@ img, iframe {
     padding: 1rem 3rem;
     font-size: 1.8rem;
 }
+
+/* breads etiketi */
+.bread-cards {
+    width: 80%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.bread-card {
+    border-radius: 18px;
+    transition: all 0.8s;
+}
+
+.bread-card:hover {
+    cursor: pointer;
+    color: var(--white);
+    transform: scale(1.05);
+    background-color: var(--secondary);
+}
+
+.bread-card img{
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.bread-card-content {
+    padding: 1.5rem;
+}
+
+.bread-card-content h3 {
+    font-size: 2.5rem;
+}
