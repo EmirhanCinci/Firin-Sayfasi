@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 9px;
+    }
+
+    /* header etiketi */
+    #main-header {
+        height: 150px;
+        padding: 1.5rem 0rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /* main etiketi */
+    /* page-start etiketi */
+    #page-start {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
