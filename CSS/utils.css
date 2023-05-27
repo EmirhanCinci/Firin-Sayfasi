@@ -43,7 +43,7 @@
 
 /* section-header */
 .section-header {
-    margin: 5rem 0rem;
+    margin: 5rem 5rem;
 }
 
 .section-header h2 {
@@ -54,4 +54,14 @@
 .section-header p {
     font-size: 2rem;
     padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        margin: 5rem 1rem;
+    }
+
+    .section-header p {
+        text-align: left;
+    }
 }

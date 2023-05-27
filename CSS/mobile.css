@@ -16,4 +16,15 @@
     #page-start, .bread-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* other-products etiketi */
+    .product-images {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* features etiketi */
+    #features {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome siteis bağlantı etiketi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- animate.css dosyası bağlantı etiketi -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- utils.css dosyası bağlantı etiketi -->
@@ -21,7 +23,7 @@
         <!-- navbar etiketi başlangıç -->
         <nav id="navbar">
             <ul class="navbar-links flex-items">
-                <li class="navbar-link-item"><a class="btn btn-secondary" href="#">Hakkımızda</a></li>
+                <li class="navbar-link-item"><a class="btn btn-secondary" href="#about">Hakkımızda</a></li>
                 <li class="navbar-link-item"><a class="btn btn-secondary" href="#">Çalışanlar</a></li>
                 <li class="navbar-link-item"><a class="btn btn-secondary" href="#">İletişim</a></li>
             </ul>
@@ -44,7 +46,7 @@
                 <img id="brand-logo" src="images/logo.png" alt="">
                 <h1 class="animate__animated animate__bounce">CİNCİ FIRIN</h1>
                 <p class="animate__animated animate__swing">Fırınımız, geleneksel el emeği ve özenle seçilen doğal malzemelerin buluştuğu bir lezzet yolculuğudur. İçten sıcaklığı ve taptaze aromasıyla, her diliminde mutluluğu hissedebileceğiniz eşsiz tatlar sunar.</p>
-                <a class="btn btn-primary animate__animated animate__backInUp" href="#">Ürünlerimiz</a>
+                <a class="btn btn-primary animate__animated animate__backInUp" href="#breads">Ürünlerimiz</a>
             </div>
             <!-- page-start-content etiketi bitiş -->
         </section>
@@ -68,8 +70,8 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Köy Ekmeği</h3>
+                    <div class="bread-card-content">
+                        <h3>Köy Ekmeği <span>15.00 TL</span></h3>
                         <p>Fırınımızın köy ekmeği, geleneksel köy fırını atmosferini yansıtarak, sağlıklı ve besleyici özellikleriyle sofralarınıza doğallığı ve lezzeti getirir.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
@@ -83,8 +85,8 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Baget Ekmek</h3>
+                    <div class="bread-card-content">
+                        <h3>Baget Ekmek <span>12.00 TL</span></h3>
                         <p>Fırınımızın baget ekmeği, gevrek ve altın rengi kabuğuyla dikkat çekerken, içindeki yumuşak ve hava dolu dokusuyla da lezzetin doruklarına çıkar.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
@@ -98,9 +100,9 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Karışık Tahıl Ekmeği</h3>
-                        <p>Karışık tahıl ekmeğimiz, çıtır kabuğu ve içerisindeki çeşitli tahıl taneleriyle, sağlıklı beslenmeyi destekleyen bir alternatif olarak sofralarınıza keyif ve fayda katıyor.</p>
+                    <div class="bread-card-content">
+                        <h3>Tahıl Ekmeği <span>17.50 TL</span></h3>
+                        <p>Tahıl ekmeğimiz, çıtır kabuğu ve içerisindeki çeşitli tahıl taneleriyle, sağlıklı beslenmeyi destekleyen bir alternatif olarak sofralarınıza keyif ve fayda katıyor.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
                 </div>
@@ -113,8 +115,8 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Süt Ekmeği</h3>
+                    <div class="bread-card-content">
+                        <h3>Süt Ekmeği <span>10.00 TL</span></h3>
                         <p>Süt ekmeğimiz, besleyici özellikleriyle dikkat çekerken, sütün doğal tat ve kremamsı dokusunu eşsiz bir şekilde yansıtarak her dilimde lezzet şöleni sunar.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
@@ -128,8 +130,8 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Esmer Ekmek</h3>
+                    <div class="bread-card-content">
+                        <h3>Esmer Ekmek <span>15.00 TL</span></h3>
                         <p>Fırnımız esmer ekmeği, yüksek lif içeriğiyle besleyici değerlerini korurken, yoğun tadı ve kıtır kabuğuyla da damaklarda unutulmaz bir iz bırakır.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
@@ -143,8 +145,8 @@
                     </div>
                     <!-- bread-card-img etiketi bitiş -->
                     <!-- bread-card-content etiketi başlangıç -->
-                    <div class="bread-card-content text-center">
-                        <h3>Peynir Ekmeği</h3>
+                    <div class="bread-card-content">
+                        <h3>Peynir Ekmeği <span>17.50 TL</span></h3>
                         <p>Peynir ekmeğimiz, içerisindeki özenle seçilen peynir parçalarıyla her diliminde yoğun lezzet ve dokulu bir deneyim sunar, kahvaltıları ve sandviçleri özel kılar.</p>
                     </div>
                     <!-- bread-card-content etiketi bitiş -->
@@ -154,6 +156,94 @@
             <!-- bread-cards etiketi bitiş -->
         </section>
         <!-- breads etiketi bitiş -->
+
+        <!-- other-products etiketi başlangıç -->
+        <section id="other-products">
+            <!-- section-header etiketi başlangıç -->
+            <div class="section-header text-center">
+                <h2>DİĞER ÜRÜNLERİMİZ</h2>
+                <p>Fırınımızın tatlı ve kurabiyeleri, özgün tarifler ve özenle seçilen malzemelerle hazırlanır. Ustalarımızın marifetiyle ortaya çıkan bu lezzetler, taze ve kaliteli malzemelerin eşsiz uyumuyla her ısırıkta büyüleyici bir tat deneyimi sunar. Tatlı tutkunlarının gözlerini ve damağını şenlendiren bu özel lezzetler, herkesi tatlı bir keyif yolculuğuna davet ediyor.</p>
+            </div>
+            <!-- section-header etiketi bitiş -->
+            <!-- product-images etiketi başlangıç -->
+            <div class="product-images">
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/croissant.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/brownies.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/cinnamon-bun.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/turkish-bagels.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/doughnuts.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/tarts.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/short-bread.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+                <!-- product-image etiketi başlangıç -->
+                <div class="product-image">
+                    <img src="images/cookies.jpg" alt="">
+                </div>
+                <!-- product-image etiketi bitiş -->
+            </div>
+            <!-- product-images etiketi bitiş -->
+        </section>
+        <!-- other-products etiketi bitiş -->
+
+        <!-- about etiketi başlangıç -->
+        <section id="about">
+            <!-- section-header etiketi başlangıç -->
+            <div class="section-header">
+                <h2 class="text-center">HAKKIMIZDA</h2>
+                <p>Cinci Fırın, yıllardır süregelen bir aile geleneğini temsil eden ve taptaze lezzetler sunan bir fırındır. 1980 yılından bu yana faaliyet gösteren fırınımız, geleneksel fırıncılık tekniklerini modern yaklaşımlarla birleştirerek müşterilerimize unutulmaz bir deneyim yaşatmayı hedeflemektedir.</p>
+                <p>Cinci Fırın, taze ve doğal malzemelerin kullanıldığı eşsiz ürünler sunmak için özenle seçilmiş kaliteli unlar, taze mayalar ve doğal katkısız malzemeler kullanmaktadır. Usta fırıncılarımız, el emeği ve sevgiyle yoğrulan hamurun lezzetini ve kalitesini her bir üründe hissettirmek için özveriyle çalışmaktadır.</p>
+                <p>Misyonumuz, müşterilerimize her seferinde mükemmeliyeti sunarak damaklarını şenlendirmektir. İhtiyaçlarınıza ve zevklerinize uygun geniş bir ürün yelpazesi sunarken, tazelik, lezzet ve kalite konularında asla ödün vermemekteyiz.</p>
+                <p>Cinci Fırın olarak, müşterilerimize sıcak ve samimi bir ortamda kaliteli ürünler sunmanın yanı sıra, onların güvenini ve memnuniyetini kazanmak da önceliklerimiz arasındadır. Fırınımızı ziyaret eden herkesi ailemizin bir parçası gibi karşılamaktan mutluluk duyuyoruz.</p>
+                <p>Cinci Fırın ailesi olarak, geleneksel lezzetleri modern bir yaklaşımla buluşturarak, sizlere her bir dilimde mutluluğu ve tatları sunmayı amaçlıyoruz. Sizleri kaliteli ve taze ürünlerimizle buluşturmak için sabırsızlıkla bekliyoruz.</p>
+            </div>
+            <!-- section-header etiketi bitiş -->
+        </section>
+        <!-- about etiketi bitiş -->
+
+        <!-- features etiketi başlangıç -->
+        <section id="features">
+            <!-- features-img etiketi başlangıç -->
+            <div class="features-img">
+                <img src="images/features.jpg" alt="">
+            </div>
+            <!-- features-img etiketi bitiş -->
+            <!-- features-content etiketi başlangıç -->
+            <div class="features-content">
+                <h3 class="text-center">Sizden Haber Almak İstiyoruz</h3>
+                <p>Müşterilerimiz, işimizin temel taşıdır ve onların memnuniyeti bizim önceliğimizdir. Sizlerin deneyimleri ve beklentileri doğrultusunda, daha iyi hizmet sunabilmek için sürekli olarak kendimizi yeniliyoruz. Sizden gelecek her türlü geri bildirim, bize yol gösterici olacak ve fırınımızın kalitesini daha da ileriye taşıyacaktır.</p>
+                <p>Siz değerli müşterilerimizin geri bildirimleri ve önerileri, bizim için önemlidir. Sizden gelecek haberleri heyecanla bekliyoruz ve sizinle güçlü bir ilişki kurmak için sabırsızlanıyoruz. Bize ulaşmak için her zaman açık bir kapı bulunmaktadır ve sizinle iletişimde olmak bizi mutlu edecektir.</p>
+                <div class="phone"><i class="fa-solid fa-phone fa-2x"></i> <span> 0 (000) 000 00-00</span></div>
+            </div>
+            <!-- features-content etiketi bitiş -->
+        </section>
+        <!-- features etiketi bitiş -->
     </main>
     <!-- main etiketi -->
 
