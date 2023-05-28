@@ -246,3 +246,45 @@ img, iframe {
 .employee-card-content h4, .employee-card-content h5 {
     font-size: 2rem;
 }
+
+/* contact etiketi */
+#contact {
+    width: 100%;
+    margin: 5rem 0rem;
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--dark);
+}
+
+.contact-form {
+    padding: 5rem;
+}
+
+.contact-form h3 {
+    font-size: 3rem;
+}
+
+.form-control {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.form-control input {
+    margin: 1rem 0rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    border: none; 
+    border-radius: 8px;  
+}
+
+.contact-form button {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+}
