@@ -13,7 +13,7 @@
 
     /* main etiketi */
     /* page-start etiketi */
-    #page-start, .bread-cards {
+    #page-start, .bread-cards, .employees-cards {
         grid-template-columns: repeat(1, 1fr);
     }
 

@@ -202,3 +202,47 @@ img, iframe {
     cursor: pointer;
     color: var(--secondary);
 }
+
+/* employees etiketi */
+.employees-cards {
+    width: 90%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.employee-card {
+    color: var(--dark);
+    overflow: hidden;
+    border-radius: 18px;
+    background-color: var(--beige);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.8s;
+}
+
+.employees-cards:hover .employee-card {    
+    filter: blur(5px);
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+.employees-cards .employee-card:hover {
+    cursor: pointer;
+    filter: blur(0px);
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.employee-card-img img {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.employee-card-content {
+    padding: 2.5rem;
+}
+
+.employee-card-content h4, .employee-card-content h5 {
+    font-size: 2rem;
+}
