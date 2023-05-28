@@ -57,3 +57,5 @@ Bu projeyi yaparken kendimi geliştirdiğim ve öğrendiğim konular ise;
 ![Main](images/main-9.png)
 
 ### Footer Bölümü
+
+![Footer](images/footer.png)
