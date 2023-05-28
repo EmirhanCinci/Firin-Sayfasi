@@ -288,3 +288,59 @@ img, iframe {
     padding: 1rem 3rem;
     font-size: 1.8rem;
 }
+
+/* footer etiketi */
+#main-footer {
+    width: 100%;
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+    color: var(--white);
+    font-size: 2.4rem;
+    background-color: var(--dark);
+}
+
+.social-links a {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.social-links i {
+    transform: scale(0.9);
+    transition: all 0.8s;
+}
+
+.social-links i:hover {
+    transform: scale(1.1);
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: deepskyblue;
+}
+
+.fa-instagram:hover {
+    color: crimson;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: dodgerblue;
+}
+
+.fa-pinterest:hover {
+    color: crimson;
+}
+
+.fa-whatsapp:hover {
+    color: green;
+}
+
+.fa-discord:hover {
+    color: cornflowerblue;
+}
